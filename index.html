@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Grady Palfrey</title>
+
+        <script type="text/javascript" src="main.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <!-- Header-->
+        <div class="background-split" id="background-split">
+            <div class="content">
+                <header class="header_area">
+                    <div class="menu">
+                        <nav class="navbar">
+                                <ul>
+                                    <li>
+                                        <a href="#contact">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="#portfolio">Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#background-split">Home</a>
+                                    </li>
+                                </ul>
+                        </nav>
+                    </div>
+                </header>
+        
+                <!-- End Header -->
+
+                <div id="particle-canvas">
+                </div>
+                    <script src="https://rawgit.com/JulianLaval/canvas-particle-network/master/particle-network.min.js"></script>
+                    <script src="main.js"></script>
+        
+                <main class="main">
+                    
+        
+                    <!-- Start Banner-->
+        
+                    <section class="banner">
+                        
+                        <div class="right">
+                            <div class="initial">      
+                                <div class="name">
+                                    <h1>GRADY PALFREY</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+        
+                    <!-- About Me -->
+        
+                    <section class="About">
+                        <div class="About-split" id="about">
+                            <div class="pfp">
+                                <img class="pfp-image" src="images/pfp.jpg">
+                            </div>
+                            <div class="description">
+                                <h2>Hi,</h2>
+                                <p>I am a second year student at Queen's University currently completing my
+                                    Computer Engineering degree. I am currently looking for a summer
+                                    2021 internship position.  
+                                </p>
+                                <p>
+                                    I am proficient in Python, Java, JavaScript, C and more.
+                                    Additionally, I have taken classes in Object-Oriented
+                                    programming, Data Structures, Data Analytics, Computer Architecture and Electronics.
+                                </p>
+                                <div class="cv">
+                                    <a class="download" href="gradypalfrey.pdf" download="proposed_file_name" target="_blank">Download CV</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+        
+                    <!-- Portfolio -->
+                    <section class="Portfolio" id="portfolio">
+                        <h1>SOME PROJECTS</h1>
+
+
+                        <div class="row grid">
+
+                            <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                                <div class="our-project">
+                                    <div class="img">
+                                        <a class="test-popup-link" href="#popup1">
+                                            <img src="images/stock.png" alt="portfolio-1" class="img-fluid">
+
+                                            <div id="popup1" class="overlay">
+                                                <div class="popup">
+                                                    <h2>Trading Algorithm</h2>
+                                                    <a class="close" href="#portfolio">&times;</a>
+                                                    <div class="content">
+                                                        <p>A trading algorithm built in Python that uses Natural Language Processing (NLP) on news
+                                                        headlines with a combination of a time series analysis. Send me a message if you want to see it but
+                                                        not currently on Github.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                    <div class="title py-4">
+                                        <h4 class="text-uppercase">Trading Algorithm</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                                <div class="our-project">
+                                    <div class="img">
+                                        <a class="test-popup-link" href="#popup2">
+                                            <img src="images/sorting.png" alt="portfolio-2" class="img-fluid">
+
+                                            <div id="popup2" class="overlay">
+                                                <div class="popup">
+                                                    <h2>Sorting Visualizer</h2>
+                                                    <a class="close" href="#portfolio">&times;</a>
+                                                    <div class="content">
+                                                        <p>A Sorting Visualizer built with Javascript and the P5.js library.
+                                                            The sorting algorithms include Bubble Sort, Quick Sort and Merge Sort.
+                                                            Features include changing the number of elements to be sorted.</p>
+                                                        <a class="btn btn-success" href="https://github.com/gpbio10/SortingVisualizer" target="_blank">Github</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                    <div class="title py-4">
+                                        <h4 class="text-uppercase">Sorting Visualiser</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                                <div class="our-project">
+                                    <div class="img">
+                                        <a class="test-popup-link" href="#popup3">
+                                            <img src="images/mask.png" alt="portfolio-4" class="img-fluid">
+
+                                            <div id="popup3" class="overlay">
+                                                <div class="popup">
+                                                    <h2>Mask Detection</h2>
+                                                    <a class="close" href="#portfolio">&times;</a>
+                                                    <div class="content">
+                                                        <p>A Mask Detecting program written in Python using the openCV library.
+                                                            This uses facial recognition and the presence of different facial features to determine if a mask is being worn.</p>
+                                                        <a class="btn btn-success" href="https://github.com/gpbio10/Mask_Detection_Recognition" target="_blank">Github</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                    <div class="title py-4">
+                                        <h4 class="text-uppercase">Mask Detection</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                                <div class="our-project">
+                                    <div class="img">
+                                        <a class="test-popup-link" href="#popup4">
+                                            <img src="images/gas.svg" alt="portfolio-5" class="img-fluid">
+
+                                            <div id="popup4" class="overlay">
+                                                <div class="popup">
+                                                    <h2>Fuel Level Sensor</h2>
+                                                    <a class="close" href="#portfolio">&times;</a>
+                                                    <div class="content">
+                                                        <p>Installed and programmed a Fuel Level Sensor with the use of an Arduino microcontroller and liquid flow sensor a Baja Racing Team.
+                                                        The program outputed statistics including fuel level and fuel consumption rates.</p>
+                                                        <a class="btn btn-success" href="https://github.com/gpbio10/Flow_Sensor" target="_blank">Github</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                    <div class="title py-4">
+                                        <h4 class="text-uppercase">Fuel Level Sensor</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                                <div class="our-project">
+                                    <div class="img">
+                                        <a class="test-popup-link" href="#popup5">
+                                            <img src="images/controller.png" alt="portfolio-3" class="img-fluid">
+
+                                            <div id="popup5" class="overlay">
+                                                <div class="popup">
+                                                    <h2>Flappy Bird Remake</h2>
+                                                    <a class="close" href="#portfolio">&times;</a>
+                                                    <div class="content">
+                                                        <p>Made a flappy bird recreation with the pygame module in Python. Fundamentals included the implementation object collision detection
+                                                        and motion due to gravity.</p>
+                                                        <a class="btn btn-success" href="https://github.com/gpbio10/Flappy_Bird" target="_blank">Github</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                    <div class="title py-4">
+                                        <h4 class="text-uppercase">Flappy Bird Remake</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                                <div class="our-project">
+                                    <div class="img">
+                                        <a class="test-popup-link" href="#popup6">
+                                            <img src="images/house.png" alt="portfolio-6" class="img-fluid">
+
+                                            <div id="popup6" class="overlay">
+                                                <div class="popup">
+                                                    <h2>Housing Price Prediction</h2>
+                                                    <a class="close" href="#portfolio">&times;</a>
+                                                    <div class="content">
+                                                        <p>Jupyter notebook for the price prediction of houses using individual house characteristic data such as square footage, number of bedroom, distance to water, etc.
+                                                            Model uses the Tensor Flow library. </p>
+                                                        <a class="btn btn-success" href="https://github.com/gpbio10/Real_Estate_Price_Prediction" target="_blank">Github</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </a>
+                                    </div>
+                                    <div class="title py-4">
+                                        <h4 class="text-uppercase">Price Prediction</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="contact" id="contact">
+                        <div class="contact-items">
+                            <div class="location">
+                                <h1 class="footer-headers">Location</h1>
+                                <div class="location-text">
+                                    <img class="location-img" src="images/location.png">
+                                    <h2>Vancouver, BC</h2>
+                                </div>
+                            </div>
+                            <div class="icons">
+                                <h1 class="footer-headers">Contact</h1>
+                                <a href="mailto:gradypalfrey@gmail.com">
+                                    <img class="icons-img" src="images/mail.png">
+                                </a>
+                            </div>
+                            <div class="social">
+                                <h1 class="footer-headers">Social</h1>
+                                <div class="social-icons">
+                                    <div class="icons">
+                                        <a href="https://www.linkedin.com/in/gradypalfrey/" target="_blank">
+                                            <img class="icons-img" src="images/linkedin.png">
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="https://github.com/gpbio10" target="_blank">
+                                            <img class="icons-img" src="images/github.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+
+            </div>
+        </div>
+    </body>
+</html>
