@@ -303,7 +303,7 @@
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
+    transition: opacity 50ms;
     visibility: hidden;
     opacity: 0;
     z-index: 4;
@@ -320,7 +320,7 @@
     border-radius: 5px;
     width: 30%;
     position: relative;
-    transition: all 5s ease-in-out;
+    transition: all 1ms ease-in-out;
     z-index: 5;
 }
 
@@ -333,7 +333,7 @@
     position: absolute;
     top: 20px;
     right: 30px;
-    transition: all 200ms;
+    transition: all 20ms;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;

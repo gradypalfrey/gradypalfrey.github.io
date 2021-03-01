@@ -11,7 +11,7 @@ var options = {
   background: '#1a252f',
   interactive: false,
   speed: 'slow',
-  density: 'mdeium'
+  density: 'medium'
 };
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
 
@@ -32,7 +32,7 @@ $(document).ready(function(){
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 800, function(){
+      }, 400, function(){
 
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
