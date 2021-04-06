@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e2f37e3-ccb7-4c2f-ae16-d50037bb0242" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/grady-palfrey.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/grady-palfrey.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/~$ady-palfrey.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$ady-palfrey.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,8 @@
       <workItem from="1613862925633" duration="7752000" />
       <workItem from="1613946590199" duration="14152000" />
       <workItem from="1614636474897" duration="1060000" />
-      <workItem from="1616469427226" duration="2219000" />
+      <workItem from="1616469427226" duration="2819000" />
+      <workItem from="1617045806967" duration="136000" />
     </task>
     <servers />
   </component>
